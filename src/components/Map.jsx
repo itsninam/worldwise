@@ -6,6 +6,7 @@ const Map = () => {
 
   const lat = params.get("lat");
   const lng = params.get("lng");
+
   return (
     <p className={styles.mapContainer}>
       <span>
